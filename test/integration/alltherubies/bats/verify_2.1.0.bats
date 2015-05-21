@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 
-export ruby_root="/usr/local/ruby/2.0.0-p0"
+export ruby_root="/usr/local/ruby/2.1.0"
 export def="$(basename $ruby_root)"
 
 load _verify_tests
